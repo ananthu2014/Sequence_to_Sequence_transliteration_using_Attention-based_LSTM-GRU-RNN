@@ -26,15 +26,15 @@ attention_mech.py  -- .py file to be run in terminal for model with attention an
 --bi_dir, type=bool, default=True    
 To run these files, go to the termianal, source folder and give python file_name.py --arguments  
 **CS6910_ASSIGNMENT_3_without_attention_sweeps.ipynb** - Contains the complete code of model without attention and partial sweep results.  
-**CS6910_ASSIGNMENT_3-BEAM SEARCH.ipynb**    - Contais model without attentiuon ad sweep results.  
-**test_predictions_sample.csv** - contains the prediction vs true test data in .csv format
-**best_accuracy_model_sample.ipynb** - contains source code of the above predictions
+**CS6910_ASSIGNMENT_3-BEAM SEARCH.ipynb**    - Contais model without attentiuon ad sweep results.    
+**test_predictions_sample.csv** - contains the prediction vs true test data in .csv format.  
+**best_accuracy_model_sample.ipynb** - contains source code of the above predictions.  
 **test_predictions_attention.csv** - contains the prediction vs true data  of attention model in.csv format  
 **cs6910_ASSIGNMENT_3=ATTENTION-MODEL-ATTENTION HEATMAP.ipynb** -source code of above predictions  
 **cs6910 -assignment_3-attention-model1.ipynb** - contains a different approach for attention model and some sample sweeps  
 
 
-## Overview
+## Overview  
 
 Sequence-to-sequence (seq2seq) learning is a powerful technique used in various natural language processing tasks, such as machine translation and transliteration. In this project, we focus on the transliteration task from the dataset sample of [aksharantar](https://drive.google.com/file/d/1uRKU4as2NlS9i8sdLRS1e326vQRdhvfw/view) released by [AI4Bharath](https://ai4bharat.org/) which involves transliteration of one language to another.
 
