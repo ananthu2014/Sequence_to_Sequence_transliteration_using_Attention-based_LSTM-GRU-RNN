@@ -27,7 +27,12 @@ attention_mech.py  -- .py file to be run in terminal for model with attention an
 To run these files, go to the termianal, source folder and give python file_name.py --arguments  
 **CS6910_ASSIGNMENT_3_without_attention_sweeps.ipynb** - Contains the complete code of model without attention and partial sweep results.  
 **CS6910_ASSIGNMENT_3-BEAM SEARCH.ipynb**    - Contais model without attentiuon ad sweep results.  
-**
+**test_predictions_sample.csv** - contains the prediction vs true test data in .csv format
+**best_accuracy_model_sample.ipynb** - contains source code of the above predictions
+**test_predictions_attention.csv** - contains the prediction vs true data  of attention model in.csv format  
+**cs6910_ASSIGNMENT_3=ATTENTION-MODEL-ATTENTION HEATMAP.ipynb** -source code of above predictions  
+**cs6910 -assignment_3-attention-model1.ipynb** - contains a different approach for attention model and some sample sweeps  
+
 
 ## Overview
 
@@ -86,6 +91,17 @@ validation__char__accuracy = 88.892%
 Test _word_accuracy = 35%    
 
 ## Result
+**LSTM** was found to be the best model compared to GRU, and RNN  
+The model worked well in presence of bidirection and more layers compared to single layers  
+Highest character level accuracy ws found for attention model whereas word accuracy were comparable  
+Beam search also increased the character accuracy even though word accuracy ws simlar  
+Attention model took more time to run compare to other models  
 
 ## Reference
-- 
+- Pytorch Documentation  
+- CS6910 -NPTEL
+- CHATGPT FOR SYNTAX CORRECTIONS AND BASIC THEORIES  
+- PYTORCH NEURAL MACHINBE SEQ TO SEQ TRANSLATION  
+- kaggle.com
+- towardsdatascience.com  
+- padh.ai  
