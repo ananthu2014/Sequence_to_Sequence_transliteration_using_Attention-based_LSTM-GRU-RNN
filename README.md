@@ -25,7 +25,9 @@ attention_mech.py  -- .py file to be run in terminal for model with attention an
 --drop_out, type=float, default=0.2  
 --bi_dir, type=bool, default=True    
 To run these files, go to the termianal, source folder and give python file_name.py --arguments  
-CS6910_ASSIGNMENT_3_without_attention_sweeps   
+**CS6910_ASSIGNMENT_3_without_attention_sweeps.ipynb** - Contains the complete code of model without attention and partial sweep results.  
+**CS6910_ASSIGNMENT_3-BEAM SEARCH.ipynb**    - Contais model without attentiuon ad sweep results.  
+**
 
 ## Overview
 
