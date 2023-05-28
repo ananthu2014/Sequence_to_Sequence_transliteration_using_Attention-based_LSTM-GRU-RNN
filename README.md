@@ -133,6 +133,7 @@ The model worked well in presence of bidirection and more layers compared to sin
 Highest character level accuracy ws found for attention model whereas word accuracy were comparable  
 Beam search also increased the character accuracy even though word accuracy ws simlar  
 Attention model took more time to run compare to other models  
+wandb report link: https://wandb.ai/ananthu2014/CS6910-ASSIGNMENT_3/reports/-CS6910-Assignment-3--Vmlldzo0NDg5MzA1
 
 ## Reference
 - Pytorch Documentation  
