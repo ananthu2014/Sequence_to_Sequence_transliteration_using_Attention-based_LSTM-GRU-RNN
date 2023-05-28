@@ -75,6 +75,43 @@ The attention mechanism calculates attention weights for each input sequence ele
 
 In addition to the attention-based seq2seq model, this project also explores a variant without attention. The without attention model relies solely on the final hidden state of the encoder as the context vector for generating the output sequence. This model serves as a baseline for comparison against the attention-based models.
 
+### SWEEP CONFIGURATIONS PERFORMED:-
+'optimizer': {  
+            'values': ['Adam', 'NAdam']  
+        },  
+        'learning_rate': {  
+            'values': [0.001, 0.005, 0.01]  
+        },  
+        'epochs': {  
+            'values': [5, 10, 20]  
+        },  
+        'hidden_dim': {  
+            'values': [128,256,512]  
+        },  
+        'layer_dim': {  
+            'values': [1,2]  
+        },  
+        'embed_dim': {  
+            'values': [128,256,512]  
+        },  
+        'drop_out': {  
+            'values': [0, 0.1, 0.2]  
+        },  
+        'cell': {   
+            'values': ['RNN', 'LSTM', 'GRU']    
+        },  
+        'batch_size': {  
+            'values': [64,128]  
+        },  
+        'weight_decay': {
+            'values': [0.0001]  
+        },  
+        'bi_dir': {
+            'values': [True, False]  
+        }  
+    }    
+
+
 ### Best hyperparameter configuration
 learning_rate = 0.001    
 epochs = 20    
