@@ -1,6 +1,6 @@
 # Sequence-to-Sequence Transliteration with Attention
 
-This project aims to address the goals mentioned below:
+The project fulfills the following:-
 
 1. Learn to create sequence-to-sequence learning model problems using Recurrent Neural Networks (RNNs).
 2. Compare the performance of model with different RNN cell types, including vanilla RNN, LSTM, and GRU.
